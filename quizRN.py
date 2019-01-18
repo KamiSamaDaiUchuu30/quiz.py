@@ -123,4 +123,15 @@ run_quest(q10T,q10C,0,q10R)
 #gives user there score
 print("your score is" , grade * 10, "% out of 100%")
 
+if -1 < grade < 5:
+    print("Try agian next time")
+elif 4 < grade < 7:
+    print("your doing ok")
+elif 6 < grade < 9:
+    print("your doing good so far")
+elif grade==9:
+    print("your almost perfect")
+elif grade==10:
+    print("you are perfect")
+
 
